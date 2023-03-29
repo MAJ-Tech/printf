@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdlib.h>
 #include <stdarg.h>
+#include <stdbool.h>
 
 /**
  * struct print_type - A struct that contain
@@ -35,5 +36,7 @@ int count_digits(int i);
 void print_number(int n);
 
 int _puts(char *str);
+
+int print_unsigned(va_list)
 
 #endif
