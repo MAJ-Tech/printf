@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stdlib.h>
 #include <stdarg.h>
 
 /**
@@ -15,6 +15,8 @@ typedef struct print_type
 	char *type;
 	int (*func)(va_list);
 } print_type;
+
+int print_int(va_list arguments)
 
 int _putchar(char);
 
