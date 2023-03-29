@@ -28,5 +28,12 @@ int print_char(va_list);
 
 int (*match_format(const char *))(va_list);
 
+char *string_to_base(unsigned long int num, int base, bool uppercase);
+
+int count_digits(int i);
+
+void print_number(int n);
+
+int _puts(char *str);
 
 #endif
