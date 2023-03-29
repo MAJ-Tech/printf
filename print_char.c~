@@ -1,0 +1,10 @@
+#include "main.h"
+#include <stdarg.h>
+
+int print_char(va_list s)
+{
+	char character = (char)va_arg(s, int);
+
+	_putchar(character);
+	return (1);
+}
