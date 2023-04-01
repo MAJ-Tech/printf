@@ -24,6 +24,8 @@ int print_string(va_list);
 
 int print_char(va_list);
 
+int print_int(va_list);
+
 int (*match_format(const char *))(va_list);
 
 #endif
