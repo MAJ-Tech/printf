@@ -12,6 +12,8 @@ int (*match_format(const char *type))(va_list)
 	print_type s[] = {
 		{"s", print_string},
 		{"c", print_char},
+		{"i", print_int},
+		{"d", print_double},
 		{NULL, NULL}
 	};
 	for (; s[i].type != NULL; i++)
